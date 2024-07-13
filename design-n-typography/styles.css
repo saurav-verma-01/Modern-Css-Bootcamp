@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Julius+Sans+One&family=Nabla&family=Outfit:wght@100..900&family=Tilt+Neon&display=swap");
+
+.text-container {
+  width: 50ch;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  background-color: whitesmoke;
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline wavy hotpink;
+  }
+}
+
+.vertical-text {
+  font-size: 1.2rem;
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: rotate(180deg);
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.typo-container {
+  background-color: ghostwhite;
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  h1 {
+    font-family: "Alegreya SC", serif;
+    font-weight: 500;
+  }
+  p {
+    width: 50ch;
+    font-family: "Outfit", sans-serif;
+  }
+}
