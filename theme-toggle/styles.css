@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --text: #041a20;
+  --background: #fbfefe;
+  --background-1: #e9f8fc;
+  --primary: #1fbae5;
+  --secondary: #f19a88;
+  --accent: #d1eb52;
+  --shadow: rgba(0, 0, 0, 0.2);
+}
+
+:root[data-theme="dark"] {
+  --text: #dff5fb;
+  --background: #010404;
+  --background-1: #06252e;
+  --primary: #1ab5e0;
+  --secondary: #771f0e;
+  --accent: #94ad14;
+  --shadow: rgba(2255, 255, 255, 0.2);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-1);
+  color: var(--text);
+
+  transition: background-color 0.4s ease, color 0.4s ease;
+  min-height: 100vh;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+header {
+  background-color: var(--text);
+  color: var(--background);
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.4rem;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+
+  height: calc(100vh - 100px);
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2em;
+}
+
+h1,
+h2 {
+  font-family: "Alegreya", serif;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  max-width: 50ch;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: goldenrod;
+
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 6px 12px var(--shadow);
+}
+
+.box p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.5;
+}
+
+.box-1 {
+  background-color: var(--primary);
+}
+.box-2 {
+  background-color: var(--secondary);
+}
+.box-3 {
+  background-color: var(--accent);
+}
