@@ -1,6 +1,10 @@
 const nav = document.getElementById("nav");
 
-console.log(nav.children[0].textContent);
+const savedTheme = localStorage.getItem("theme") || "light";
+
+document.body.setAttribute("data-theme", savedTheme);
+
+// console.log(nav.children[0].textContent);
 
 const lightMode = () => {
   nav.children[0].textContent = "Dark Mode";
@@ -20,9 +24,11 @@ nav.addEventListener("click", () => {
 
   if (currentTheme === "light") {
     document.body.setAttribute("data-theme", "dark");
+    localStorage.setItem("theme", "dark");
     darkMode();
   } else {
     document.body.setAttribute("data-theme", "light");
+    localStorage.setItem("theme", "light");
     lightMode();
   }
 });
