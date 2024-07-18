@@ -10,10 +10,10 @@
   --shadow: rgba(0, 0, 0, 0.2);
 }
 
-:root[data-theme="dark"] {
+[data-theme="dark"] {
   --text: #dff5fb;
   --background: #010404;
-  --background-1: #06252e;
+  --background-1: #031317;
   --primary: #1ab5e0;
   --secondary: #771f0e;
   --accent: #94ad14;
