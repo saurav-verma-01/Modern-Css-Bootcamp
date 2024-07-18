@@ -20,6 +20,18 @@
   --shadow: rgba(2255, 255, 255, 0.2);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #dff5fb;
+    --background: #010404;
+    --background-1: #031317;
+    --primary: #1ab5e0;
+    --secondary: #771f0e;
+    --accent: #94ad14;
+    --shadow: rgba(2255, 255, 255, 0.2);
+  }
+}
+
 *,
 *::after,
 *::before {
