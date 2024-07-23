@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typographix V3 (Responsive Design)</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-theme="light">
+    <main>
+      <section id="section-header">
+        <header class="nav-header" id="navbar">
+          <!-- Hamburger Menu -->
+          <button class="ham-menu" id="ham-menu" aria-label="Main Menu">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+
+          <!-- Nav Menu -->
+
+          <nav class="nav-menu" id="nav-menu">
+            <ul>
+              <li>
+                <a href="#section-header" onclick="closeNavMenu()">Home</a>
+              </li>
+              <li>
+                <a href="#section-hero" onclick="closeNavMenu()">About</a>
+              </li>
+              <li>
+                <a href="#section-gallery" onclick="closeNavMenu()">Gallery</a>
+              </li>
+              <li><a href="#section-blog" onclick="closeNavMenu()">Blog</a></li>
+              <li>
+                <a href="#section-footer" onclick="closeNavMenu()">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Toggle Nav -->
+
+          <div class="nav-toggle" id="nav-toggle">
+            <span>Dark Mode</span>
+            <i class="fa-regular fa-lightbulb"></i>
+          </div>
+        </header>
+        <!-- Header -->
+        <header class="header">
+          <h1>TypogrAphIx</h1>
+          <div class="social-media-icons">
+            <i class="fa-brands fa-facebook" title="Facebook"></i>
+            <i class="fa-brands fa-instagram" title="Instagram"></i>
+            <i class="fa-brands fa-x-twitter" title="X"></i>
+            <i class="fa-brands fa-youtube" title="Youtube"></i>
+            <i class="fa-brands fa-github" title="Github"></i>
+          </div>
+        </header>
+      </section>
+
+      <section id="section-hero">
+        <h2>Revolutionizing Image & Text Generation with AI</h2>
+        <img
+          src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="hero-img"
+          alt="retro gaming setup"
+        />
+      </section>
+
+      <section id="section-gallery">
+        <h2>Next-Level AI for Image & Text Mastery</h2>
+        <div class="gallery-container">
+          <img
+            src="https://images.unsplash.com/photo-1675049626914-b2e051e92f23?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="gaming setup"
+            class="gallery-img"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1637944059066-81c8eb0f7c02?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="gaming setup"
+            class="gallery-img"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1514803400321-3ca29fc47334?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="gaming setup"
+            class="gallery-img"
+          />
+        </div>
+      </section>
+
+      <section id="section-blog">
+        <h2>AI Insights: Trends, Tips, and Transformations</h2>
+        <div class="blog-container">
+          <article class="blog-item">
+            <h3><a href="#">Blog Item 1</a></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              soluta illum hic dolore velit consequuntur cumque fugiat, repellat
+              culpa! Debitis dolore numquam quisquam sunt maiores, quae hic iste
+              nihil eius. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. In, qui. Molestias explicabo, provident quasi quo dolorum
+              iste aliquid ad officia rem nesciunt porro nulla perferendis amet
+              eveniet eum placeat error...
+            </p>
+          </article>
+          <article class="blog-item">
+            <h3><a href="#">Blog Item 2</a></h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, sit
+              fuga libero culpa veritatis voluptas placeat aperiam excepturi
+              similique provident debitis ipsa laboriosam sint iusto fugit,
+              voluptates cupiditate, odit quae, Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Fuga nemo ullam perspiciatis
+              cupiditate deserunt repudiandae dolorum non laudantium aut fugiat
+              voluptatum alias iusto quia dolore, enim repellendus suscipit
+              porro! Voluptatum...
+            </p>
+          </article>
+          <article class="blog-item">
+            <h3><a href="#">Blog Item 3</a></h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+              eveniet provident corrupti illum, id ullam architecto quod odio
+              quas quos perspiciatis laborum repellat doloribus est repellendus
+              ratione expedita laboriosam distinctio, Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Doloribus veritatis delectus quos
+              vitae mollitia itaque porro perspiciatis quasi, repellat at
+              doloremque debitis. Vel suscipit dignissimos velit quo maiores
+              laboriosam nulla...
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="section-footer">
+        <!-- Footer -->
+
+        <h2><a href="#">Speak with Our Experts</a></h2>
+
+        <footer class="footer">
+          <small>&copy; 2024 Typographix. All rights reserved.</small>
+        </footer>
+
+        <div class="wave">
+          <svg
+            width="100%"
+            height="100%"
+            id="svg"
+            viewBox="0 0 1440 590"
+            xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="5%" stop-color="#0693e3"></stop>
+                <stop offset="95%" stop-color="#0077b6"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 L 0,112 C 52.88316685164634,96.54749044271797 105.76633370329267,81.09498088543594 158,72 C 210.23366629670733,62.90501911456406 261.81783203847573,60.16756690097421 315,65 C 368.18216796152427,69.83243309902579 422.96233814280424,82.23475151066717 475,105 C 527.0376618571958,127.76524848933283 576.3328153903069,160.89342705635715 626,163 C 675.6671846096931,165.10657294364285 725.7064002959676,136.1915402639043 778,132 C 830.2935997040324,127.8084597360957 884.8415834258232,148.34041188802564 940,130 C 995.1584165741768,111.65958811197434 1050.92726600074,54.44681218399309 1110,62 C 1169.07273399926,69.55318781600691 1231.449352571217,141.87233937600197 1287,161 C 1342.550647428783,180.12766062399803 1391.2753237143916,146.06383031199903 1440,112 L 1440,600 L 0,600 Z"
+              stroke="none"
+              stroke-width="0"
+              fill="url(#gradient)"
+              fill-opacity="0.4"
+              class="transition-all duration-300 ease-in-out delay-150 path-0"
+            ></path>
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="5%" stop-color="#0693e3"></stop>
+                <stop offset="95%" stop-color="#0077b6"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 L 0,262 C 45.96330003699593,271.90958194598596 91.92660007399186,281.8191638919719 148,285 C 204.07339992600814,288.1808361080281 270.2568997410285,284.6329263780984 327,269 C 383.7431002589715,253.36707362190162 431.0458009618942,225.64913059563452 486,209 C 540.9541990381058,192.35086940436548 603.5598964113948,186.77055123936364 660,209 C 716.4401035886052,231.22944876063636 766.7146133925269,281.26866444691086 822,282 C 877.2853866074731,282.73133555308914 937.581650018498,234.15479097299294 977,217 C 1016.418349981502,199.84520902700706 1034.9587865334813,214.11217166111732 1091,241 C 1147.0412134665187,267.8878283388827 1240.5832038475767,307.3965223825379 1305,313 C 1369.4167961524233,318.6034776174621 1404.7083980762118,290.30173880873105 1440,262 L 1440,600 L 0,600 Z"
+              stroke="none"
+              stroke-width="0"
+              fill="url(#gradient)"
+              fill-opacity="0.53"
+              class="transition-all duration-300 ease-in-out delay-150 path-1"
+            ></path>
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="5%" stop-color="#0693e3"></stop>
+                <stop offset="95%" stop-color="#0077b6"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              d="M 0,600 L 0,412 C 49.948156369466034,386.69838451103715 99.89631273893207,361.39676902207424 161,378 C 222.10368726106793,394.60323097792576 294.3629054137378,453.11130842274014 349,465 C 403.6370945862622,476.88869157725986 440.6520656061167,442.15799728696516 481,440 C 521.3479343938833,437.84200271303484 565.0288321617955,468.25670242939947 623,455 C 680.9711678382045,441.74329757060053 753.2326057467011,384.81519299543714 816,376 C 878.7673942532989,367.18480700456286 932.0407448513997,406.48252558885184 975,416 C 1017.9592551486003,425.51747441114816 1050.6044148477001,405.2547046491553 1105,392 C 1159.3955851522999,378.7452953508447 1235.5415957577998,372.498655814527 1295,377 C 1354.4584042422002,381.501344185473 1397.2292021211001,396.7506720927365 1440,412 L 1440,600 L 0,600 Z"
+              stroke="none"
+              stroke-width="0"
+              fill="url(#gradient)"
+              fill-opacity="1"
+              class="transition-all duration-300 ease-in-out delay-150 path-2"
+            ></path>
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/36eb7349ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
