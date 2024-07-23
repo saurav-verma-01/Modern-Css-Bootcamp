@@ -52,7 +52,11 @@ section:nth-child(2n) {
 
 .nav-header {
   background-color: var(--background-1);
+  width: 100%;
+  height: 100px;
   z-index: 5;
+  position: fixed;
+  inset: 0;
 }
 /* Nav Meu Icon */
 
