@@ -1,0 +1,87 @@
+/* For small Laptops and Larger Tablets */
+
+/* Screen sizes Smaller than 1280 px */
+
+@media screen and (max-width: 1280px) {
+  :root {
+    --letter-spacing-var: 0.5em;
+  }
+  .gallery-container {
+    flex-direction: column;
+  }
+  .gallery-img {
+    max-width: 40rem;
+  }
+
+  #section-hero {
+    padding-block: 4rem;
+  }
+}
+
+/* Screen sizes Smaller than 960 px */
+
+@media screen and (max-width: 960px) {
+  :root {
+    --letter-spacing-var: 0.2em;
+  }
+  h2 {
+    text-align: center;
+  }
+  section {
+    padding: 4rem 3rem;
+  }
+  .hero-img {
+    border-width: 6px;
+    padding: 6px;
+    max-width: 100%;
+  }
+  .gallery-img {
+    max-width: 30rem;
+  }
+}
+
+/* For Mobile scrrens */
+
+/* Screen sizes Smaller than 640 px */
+
+@media screen and (max-width: 640px) {
+  :root {
+    --letter-spacing-var: 0.1em;
+  }
+  .social-media-icons {
+    font-size: 35px;
+    top: -54px;
+  }
+  .gallery-img {
+    max-width: 24rem;
+  }
+
+  .hero-img {
+    padding: none;
+
+    border: none;
+  }
+  .wave {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    padding-inline: 1.5rem;
+  }
+  .gallery-img {
+    border: none;
+    padding: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header h1 {
+    font-size: 45px;
+  }
+  .social-media-icons {
+    font-size: 30px;
+    top: -40px;
+  }
+}
